@@ -3,6 +3,10 @@ import path from 'path';
 import matter from 'gray-matter';
 import { serialize } from 'next-mdx-remote/serialize';
 import rehypePrism from '@mapbox/rehype-prism';
+// import Readme from './../README.md' // Assumes an integration is used to compile MDX -> JS.
+// import {FancyLink} from './components/fancy-link.js'
+
+// <Readme components={{a: FancyLink}} />
 
 // POSTS_PATH is useful when you want to get the path to a specific file
 export const POSTS_PATH = path.join(process.cwd(), 'posts');
