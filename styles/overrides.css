@@ -1,0 +1,9 @@
+#soc-levels {
+    width: 120% !important;
+    margin-left: -15%;
+    margin-top: 36px;
+}
+
+.table-emphasis {
+    font-weight: bold;
+}
