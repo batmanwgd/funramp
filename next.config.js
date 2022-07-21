@@ -5,7 +5,6 @@ const nextConfig = {
   images: {
     domains: ['flocksafety.showpad.com']
   },
-  distDir: 'build',
 }
 
 module.exports = withPlugins([[withImages]], nextConfig)
