@@ -3,6 +3,22 @@ import path from 'path';
 import matter from 'gray-matter';
 import { serialize } from 'next-mdx-remote/serialize';
 import rehypePrism from '@mapbox/rehype-prism';
+// import Image from 'next/image';
+
+// let source = "";
+// let author = "";
+
+// export const picture = (props) => {
+//   return (
+//     <Image
+//       src={source}
+//       alt={author}
+//       width={500}
+//       height={500}
+//     />
+//   )
+// }
+
 // import Readme from './../README.md' // Assumes an integration is used to compile MDX -> JS.
 // import {FancyLink} from './components/fancy-link.js'
 

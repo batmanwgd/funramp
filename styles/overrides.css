@@ -7,3 +7,5 @@
 .table-emphasis {
     font-weight: bold;
 }
+
+img[alt=workflow] { max-width: 150%; margin-left: -25%; }
